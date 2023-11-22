@@ -2,6 +2,8 @@ const bodyParser = require("body-parser");
 const express = require("express");
 const app = express();
 const hbs = require("hbs");
+const apps = 15;
+const sat = 1223;
 
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partial");
@@ -11,7 +13,6 @@ app.get("/", function(request, response){
         button_name: "submit"
     })
 });
-
 app.use('/', bodyParser.urlencoded({
     extended: true
 }));
