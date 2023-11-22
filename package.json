@@ -1,0 +1,23 @@
+{
+  "name": "cours_project",
+  "version": "1.0.0",
+  "description": "курсовая работа",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deadshotop/coursach.git"
+  },
+  "author": "Deadshotop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deadshotop/coursach/issues"
+  },
+  "homepage": "https://github.com/Deadshotop/coursach#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
